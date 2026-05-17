@@ -6,9 +6,6 @@ API_ID = int(environ.get("API_ID", "29777466"))
 API_HASH = environ.get("API_HASH", "a04b3df726520026f207079aec2f9879")
 BOT_TOKEN = environ.get("BOT_TOKEN", "8677808521:AAFOPTxHetOquXBBI5byQf6c7FRzsa440NY")
 
-# Force Subscribe Configuration
-FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "roxybasicneedbot1")  # Channel username without @, 
-FORCE_SUB_CHANNEL_LINK = environ.get("FORCE_SUB_CHANNEL_LINK", "https://t.me/roxybasicneedbot1")  # Channel link
 
 # Admin Configuration
 ADMINS = list(map(int, environ.get("ADMINS", "8399557684").split()))
